@@ -18,6 +18,12 @@ export default function Home() {
         >
           Login
         </Link>
+        <Link
+          href={"/profile"}
+          className="grid place-items-center px-5 bg-slate-500 h-10 w-32 rounded-md hover:px-7 hover:w-36 duration-300"
+        >
+          Profile
+        </Link>
       </div>
     </main>
   )
